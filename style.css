@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.section {
+  margin-top: 100px;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: -150px;
+}
+
+.Cards {
+  padding: 3rem;
+}
+
+.heading{
+    font-family:'Big Shoulders Display', cursive;
+    padding-bottom: 15px;
+}
+
+img{
+    padding-bottom: 15px;
+}
+p{
+    line-height: 25px;
+    padding-bottom: 75px;
+}
+
+button{
+    border: none;
+    border-radius: 45px;
+    padding: 15px;
+}
+
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+}
+.card-2{
+    background-color: hsl(184, 100%, 22%);  
+}
+
+.card-3{
+    background-color: hsl(179, 100%, 13%);  
+}
+
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);  
+}
+
+.btn-3{
+    color: hsl(179, 100%, 13%);  
+}
+
+
+li{
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  padding: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  
+
+}
+
+li a:hover{
+  color: goldenrod;
+}
+
+ul{
+  display: flex;
+  margin-top: -18rem;
+  padding: 5px;
+}
